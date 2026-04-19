@@ -1,1 +1,14 @@
-<!doctype html><html><head><meta http-equiv="refresh" content="0;url=/SkinIQ/"></head></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkinIQ</title>
+    <script>
+      // GitHub Pages SPA redirect — sends any 404 back to index with the path preserved
+      var path = window.location.pathname.replace('/SkinIQ', '');
+      window.location.replace('/SkinIQ/' + (path ? '?redirect=' + path : ''));
+    </script>
+  </head>
+  <body></body>
+</html>
